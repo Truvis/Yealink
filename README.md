@@ -112,5 +112,22 @@ The following are the current usable VPN options. Can use one or the other. Will
  openvpn.url="https://vpn/t27_t29_t46.tar"
  ```
 
+# Power Settings
+Controls when the phone display will be kept on and go off. The values are in military time. Can be disabled if required. 
 
+The following will turn the display on from 8am to 5pm. 
+
+```
+ features.power_saving.intelligent_mode="1"
+ features.power_saving.enable="1"
+ features.power_saving.office_hour.idle_timeout="120"
+ features.power_saving.off_hour.idle_timeout="60"
+ features.power_saving.office_hour.monday="8,18"
+ features.power_saving.office_hour.tuesday="8,18"
+ features.power_saving.office_hour.wednesday="8,18"
+ features.power_saving.office_hour.thursday="8,18"
+ features.power_saving.office_hour.friday="8,18"
+ features.power_saving.office_hour.saturday="8,18"
+ features.power_saving.office_hour.sunday="8,18"
+```
 
