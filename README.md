@@ -140,5 +140,7 @@ The file name needs to be the same in both locations. The file name is the name.
 ![alt img](https://image.ibb.co/hGGnP7/222.png)
 ![alt img](https://image.ibb.co/gEmnP7/2222.png)
 
+```
  wallpaper_upload.url="https://url.tld/name.ext"
  phone_setting.backgrounds="name.ext"
+```
