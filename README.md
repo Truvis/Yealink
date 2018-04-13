@@ -131,3 +131,14 @@ The following will turn the display on from 8am to 5pm.
  features.power_saving.office_hour.sunday="8,18"
 ```
 
+# Wallpaper Sizes and Uploading
+ 
+ 
+
+The file name needs to be the same in both locations. The file name is the name.ext
+
+![alt img](https://image.ibb.co/hGGnP7/222.png)
+![alt img](https://image.ibb.co/gEmnP7/2222.png)
+
+ wallpaper_upload.url="https://url.tld/name.ext"
+ phone_setting.backgrounds="name.ext"
